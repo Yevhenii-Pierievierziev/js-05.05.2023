@@ -5,17 +5,15 @@
 N задается пользователем из браузера.
 */
 
-/*
 let N = prompt('Введите число кратное 5', 0);
 
-for (let i = 0; i <= N; i++) {
-    if (i > 0 && i % 5 === 0) {
-     console.log(i);  
+for (let i = 1; i < N; i++) {
+    // Проверка, является ли число положительным и кратным 5
+    let count = 0;
+    if (i % 5 === 0) {
+      count++;
+      console.log(N);
     }
-}
+  }
 
-let result = N / 5;
-result = Math.floor(result);
-console.log(`Число ${N} делиться на положительные числа кратных 5 - ${result}.`);
 
-*/
